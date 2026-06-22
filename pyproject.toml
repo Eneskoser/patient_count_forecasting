@@ -1,0 +1,21 @@
+[project]
+name = "patient_forecasting"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "holidays>=0.94",
+    "lightgbm>=4.6.0",
+    "matplotlib>=3.10.8",
+    "meteostat>=1.7.6",
+    "mlforecast>=1.0.31",
+    "neuralforecast>=3.1.6",
+    "numba>=0.59.1",
+    "pandas>=2.3.3",
+    "statsforecast>=2.0.2",
+    "utilsforecast>=0.2.15",
+    "window-ops>=0.0.15",
+    "xgboost>=3.2.0",
+    "xlrd>=2.0.2",
+]
